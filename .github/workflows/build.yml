@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 生成视频
-        run: python make_video.py
+        run: python water_video.py
 
       - name: 部署到 GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
